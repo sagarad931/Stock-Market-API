@@ -1,9 +1,7 @@
 
 import './App.css'
-// import StockMarketTable from './components/stockMarketTable'
-import Sagar from './components/stockMarketTable2'
-import Adhikari from './components/stockMarketGraph'
-
+import TableData from './components/stockMarketTable'
+import GraphData from './components/stockMarketGraph'
 
 function App() {
 
@@ -11,9 +9,9 @@ function App() {
     <>
       <h2>API Assignment </h2>
       <h3>For Tables:</h3>
-      <Sagar/>
+      <TableData/>
       <h3>For Graphs:</h3>
-      <Adhikari/>
+      <GraphData/>
 
     </>
   )
